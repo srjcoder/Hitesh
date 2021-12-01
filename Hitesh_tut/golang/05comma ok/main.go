@@ -1,7 +1,7 @@
-package commaorok
+package main
 
 import "fmt"
 
 func main() {
-	fmt.Println("shit")
+	fmt.Println("comma try")
 }
