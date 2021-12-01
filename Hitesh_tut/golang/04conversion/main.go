@@ -1,11 +1,21 @@
 package conversion
 
-import "fmt"
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
 
 func main() {
 
-	sudharsanraju := "string"
+	// reciveing rating from users
 
-	fmt.Println(sudharsanraju)
+	fmt.Println("Welcome to star cup shop")
+	fmt.Println("Rate the service from 1 to 5")
+
+	reader := bufio.NewReader(os.Stdin)
+	input, _ := reader.ReadString('\n')
+
+	fmt.Println("Thanks for rating", input)
 
 }
