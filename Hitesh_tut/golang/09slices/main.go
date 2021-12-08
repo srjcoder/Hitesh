@@ -32,4 +32,5 @@ func main() {
 	// del var of course
 	course = append(course[:index], course[index+1:]...)
 	fmt.Println(course)
+
 }

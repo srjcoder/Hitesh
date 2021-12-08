@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+
 	fmt.Println("welcome to map test")
 
 	// initializing map to var
