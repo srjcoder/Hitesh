@@ -1,0 +1,3 @@
+"This whole code explain how to use create and read and write into particular file,
+					 here we need to note one thing that create may be comes under os interface but
+					 write func will come under io interface and read in ioutil"
